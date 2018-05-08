@@ -9,8 +9,9 @@
         Nuxt.js project
       </h2>
       <div class="links">
-        <nuxt-link :to="{path: '/relative'}">Relative</nuxt-link>
-        <nuxt-link :to="{path: '/absolute'}">Absolute</nuxt-link>
+        <nuxt-link :to="{path: '/relative'}">Relative</nuxt-link><br/>
+        <nuxt-link :to="{path: '/absolute'}">Absolute</nuxt-link><br/>
+        <nuxt-link :to="{path: '/absolute-ext'}">Absolute External</nuxt-link><br/>
       </div>
     </div>
   </section>
